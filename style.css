@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+
+}
+
+body{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: coral;
+    min-height: 100vh;
+}
+.wrapper{
+    background-color: aliceblue;
+    height:666px;
+    width:270px;
+    border-radius:12px;
+    position: absolute;
+    left: 41%;
+}
+
+
+
+
+
+
+.logo p{
+    font-size: 45px;
+    background-color:white;
+    text-align: center;
+    color: chocolate;
+    border-radius: 11px;
+}
+
+
+
+
+ .wrapper input{
+    margin: 12px;
+ }
+
+
+ .currency{
+    padding: 75px 0px;
+    justify-items: space-between;
+    display: flex;
+    align-items:center;
+    margin:-50px;  
+    flex-direction: column; 
+ }
+
+
+
+
+
+
+
+
+
+
+ .BTN{
+    color:black;
+    background-color: coral;
+    cursor: pointer;
+    font-size: 20px;
+    padding:5px 60px;
+    border-radius: 10px;
+ }
+
+
+
+
+
+
+
+.wrapper header{
+    top:0px;
+    right:0px;
+    left:0px;
+    font-size: 20px;
+    color:brown;
+}
+
+.cash2 p{
+    font-size:16px;
+    padding: 0px;
+}
+.cash1 input{
+    height: 30px ;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: beige;
+    border-color: crimson;
+
+}
+
+
+
+.cash2 input{
+    height: 30px ;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: beige;
+    border-color: crimson;
+ 
+}  
+
+
+.from p{
+    padding:0px 0px;
+    margin: 0%;
+    
+    font-size: 20px;
+    border-radius: 5px;
+    position: absolute;
+    left: -5%;
+    bottom: 30%;
+ } 
+
+ .currency select{
+    height:35px;
+    width: 162px;
+    padding:4%;
+    border-radius:11px;
+    border-color: brown;
+    font-size:15px;
+    font-feature-settings: "afrc";
+    
+ }
+ .TO P{
+    font-size: 20px;
+    color: #000;
+    position: absolute;
+    left: 1%;
+    bottom: 19%;
+
+ }
+
+
+
+
+
+
+.logo img{
+    align-items:center;
+    
+    height: 250px;
+    align-content: center;
+    padding:14px;
+    margin:5px;
+}
+
+
+.converter{
+    background-color: aliceblue;
+    height: 666px;
+    width: 500px;
+    
+    border-radius: 11px;
+}
